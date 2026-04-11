@@ -67,3 +67,33 @@ function playRound(humanChoice, computerChoice) {
     humanScore++;
   }
 }
+
+function playGame() {
+  for (let i = 0; i < 5; i++) {
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+
+    playRound(humanSelection, computerSelection);
+  }
+  if (humanScore > computerScore) {
+    console.log(`YOU WON
+        FINAL SCORE:
+        YOU = ${humanScore}
+        COMPUTER = ${computerScore}`);
+  }
+  else if (humanScore < computerScore) {
+    console.log(`YOU LOST
+        FINAL SCORE:
+        YOU = ${humanScore}
+        COMPUTER = ${computerScore}`);
+  }
+  else {
+    console.log(`IT'S A DRAW
+        FINAL SCORE:
+        YOU = ${humanScore}
+        COMPUTER = ${computerScore}`);
+  }
+}
+
+
+playGame();
