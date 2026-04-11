@@ -96,4 +96,4 @@ function playGame() {
 }
 
 
-playGame();
+setTimeout(playGame, 8000);
