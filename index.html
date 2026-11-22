@@ -1,23 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock-Paper-Scissors</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heaader">Rock-Paper-Scissors</div>
 
-    <h2>Rock Paper Scissors Game</h2>
-    <p>
-        To play the game:
-        <br>
-        1. Right click anywhere on this page
-        <br>
-        2. Click on <b>Inspect</b>
-        <br>
-        3. Go to the <b>Console</b> tab
-    </p>
+      <div class="heaader2">First to 5 Wins</div>
 
-    <script src="script.js"></script>
-</body>
+      <div class="butns">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+
+      <div class="scores">
+        <div id="player">Player Score :</div>
+        <div id="comp">Computer Score :</div>
+      </div>
+
+      <div id="results"></div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
 </html>

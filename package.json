@@ -1,0 +1,25 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "## **Description** This is a simple **Rock-Paper-Scissors** game made using **JavaScript**.   The game runs in the **browser console** and lets the user play against the computer.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajj1245/Rock-Paper-Scissors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajj1245/Rock-Paper-Scissors/issues"
+  },
+  "homepage": "https://github.com/Rajj1245/Rock-Paper-Scissors#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}
